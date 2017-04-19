@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="https://github.com/nfroidure/gulp-streamify"
-
-    >gulp-streamify (v1.0.2)</a>
+    <a href="https://github.com/nfroidure/gulp-streamify">gulp-streamify (v1.0.2)</a>
 </h1>
 <h4>Wrap old plugins to support streams.</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.gulp-streamify">module gulp-streamify</a><ol>
 
@@ -92,13 +85,13 @@
   var duplex = new Duplexer({ objectMode: true }, inputStream, outputStream);
 
   // Accepting functions returning streams
-  if(&#x27;function&#x27; === typeof pluginStream) {
+  if('function' === typeof pluginStream) {
     pluginStream = pluginStream();
   }
 
   // Listening for plugin errors and reemit
-  pluginStream.on(&#x27;error&#x27;, function(error) {
-    duplex.emit(&#x27;error&#x27;, error);
+  pluginStream.on('error', function(error) {
+    duplex.emit('error', error);
   });
 
   // Change files contents from stream to buffer and write to the plugin stream
@@ -124,7 +117,7 @@
     };
 
     // When buffered
-    bufstream.once(&#x27;finish&#x27;, function() {
+    bufstream.once('finish', function() {
       // Send the buffer wrapped in a file
       file.contents = buf;
       inputStream.push(file);
@@ -163,8 +156,8 @@
     setImmediate(function() {
       // Old streams WTF
       if(!pluginStream._readableState) {
-        outputStream.emit(&#x27;end&#x27;);
-        duplex.emit(&#x27;end&#x27;);
+        outputStream.emit('end');
+        duplex.emit('end');
       }
     });
     cb();
@@ -189,3 +182,4 @@
     ]
 </div>
 </div>
+</body></html>
