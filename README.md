@@ -1,9 +1,14 @@
-# api documentation for  [gulp-streamify (v1.0.2)](https://github.com/nfroidure/gulp-streamify)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-streamify.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-streamify) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-streamify.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-streamify)
+# npmdoc-gulp-streamify
+
+#### api documentation for  [gulp-streamify (v1.0.2)](https://github.com/nfroidure/gulp-streamify)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-streamify.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-streamify) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-streamify.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-streamify)
+
 #### Wrap old plugins to support streams.
 
-[![NPM](https://nodei.co/npm/gulp-streamify.png?downloads=true)](https://www.npmjs.com/package/gulp-streamify)
+[![NPM](https://nodei.co/npm/gulp-streamify.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-streamify)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-streamify/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-gulp-streamify_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-streamify/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-gulp-streamify/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-gulp-streamify/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-streamify/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-streamify/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-gulp-streamify/build/screenCapture.npmPackageListing.svg)
 
@@ -64,13 +69,11 @@
     "main": "src/index.js",
     "maintainers": [
         {
-            "name": "nfroidure",
-            "email": "nfroidure@elitwork.com"
+            "name": "nfroidure"
         }
     ],
     "name": "gulp-streamify",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/nfroidure/gulp-streamify.git"
@@ -87,16 +90,6 @@
     "version": "1.0.2"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module gulp-streamify](#apidoc.module.gulp-streamify)
-
-
-
-# <a name="apidoc.module.gulp-streamify"></a>[module gulp-streamify](#apidoc.module.gulp-streamify)
 
 
 
